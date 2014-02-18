@@ -1,0 +1,119 @@
+/* base style */
+body {
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.bg-image-pic {
+  background-repeat: no-repeat;
+}
+.global-bg {
+  background: url('../img/bg-global.png') repeat-y center -95px transparent;
+}
+.header-bg {
+  background: url('../img/bg-header.png') no-repeat fixed center -95px transparent;
+}
+.loading-large {
+  background: url('../img/loading.gif') no-repeat;
+  width: 80px;
+  height: 80px;
+}
+.loading-small {
+  background: url('../img/processing.gif') no-repeat;
+  width: 30px;
+  height: 30px;
+}
+.color-red {
+  color: red;
+}
+.color-blue {
+  color: blue;
+}
+.color-gray {
+  color: #a1a1a1;
+}
+.color-silver {
+  color: #eeeeee;
+}
+.bg-color-blank {
+  background: #fff;
+}
+.bg-color-silver {
+  background-color: #eeeeee;
+}
+.bg-color-silver-alpha {
+  background-color: #eeeeee;
+  background-color: rgba(204, 204, 204, 0.8);
+}
+.bg-color-green {
+  background: #c0e389;
+}
+.bg-color-orange {
+  background: #faac6c;
+}
+.bg-color-purple {
+  background: #9483b9;
+}
+.bg-color-cyan-blue {
+  background: #13b5b1;
+}
+.bg-color-blue {
+  background: #00b7ee;
+}
+.bg-color-khaki {
+  background: #d1c0a5;
+}
+.bold {
+  font-weight: bold;
+}
+select {
+  min-width: 80px;
+  height: 30px;
+  padding: 5px;
+  *height: 24px;
+}
+.round {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.round:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.dropdown-custom .dropdown-custom-btn {
+  display: block;
+}
+.dropdown-custom .dropdown-menu {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #eeeeee;
+  background-color: rgba(204, 204, 204, 0.8);
+  border: none;
+  border-radius: 0;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .dropdown-custom .dropdown-custom-btn {
+    display: none;
+  }
+  .dropdown-custom .dropdown-menu {
+    display: block;
+    position: static;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+  }
+  .dropdown-custom .dropdown-menu li {
+    float: left;
+  }
+}

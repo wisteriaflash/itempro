@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>登录</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!--[if lt IE 9]>
+      <script src="lib/iefix/html5shiv.min.js"></script>
+      <script src="lib/iefix/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body class="header-bg">
+    <header class="container navbar-fixed-top bg-color-silver header-bg">
+      <div class="row">
+        <div class="col-xs-3 col-sm-4 col-md-4 col-left">
+          <div class="dropdown dropdown-custom">
+            <a id="drop1" class="dropdown-custom-btn" role="button" data-toggle="dropdown" href="#"><i class="icon-area"></i></a>
+            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop1">
+              <li>
+                <form>
+                  <select name="country">
+                    <option value="cn">中国</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <!-- <select name="city">
+                    <option value="shanghai">上海</option>
+                    <option value="newyork">NewYork</option>
+                  </select> -->
+                  <select name="language">
+                    <option value="chinese">汉语</option>
+                    <option value="english">英语</option>
+                  </select>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-4 col-middle">
+          <div class="con">
+            <a href="#" class="logo logo-red"></a>
+            <div class="input-group">
+              <input type="text" class="form-control">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button"><i class="icon-search"></i></button>
+              </span>
+            </div>
+            <div class="dropdown">
+              <a id="drop2" class="dropdown-btn" role="button" data-toggle="dropdown" href="#"><i class="icon-tag"></i></a>
+              <ul id="menu2" class="dropdown-menu clearfix" role="menu" aria-labelledby="drop2">
+                <li class="item-type" role="presentation">
+                  <form>
+                    <select name="type1">
+                      <option>分类</option>
+                      <option>分类</option>
+                    </select>
+                    <select name="type2">
+                      <option>分类</option>
+                      <option>分类</option>
+                    </select>
+                  </form>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li class="item-tag" role="presentation">
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                  <button class="btn btn-default" type="button">标签标签</button>
+                </li>
+              </ul>
+            </div>  
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-4 col-md-4 col-right">
+          <div class="user-info">
+            <ul>
+              <li class="info">
+                <a href="#">紫霞仙子</a>
+                <p class="grade">
+                  <span class="label label-success" title="您的LV等级为2" alt="LV2">LV2</span>
+                  <span class="label label-default" title="您的VIP等级为0" alt="VIP0">VIP0</span>
+                </p>
+              </li>
+              <li><i class="icon-coin-yellow bold">888</i></li>
+              <li><i class="icon-coin-green bold">999</i></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a id="drop3" class="dropdown-btn" role="button" data-toggle="dropdown" href="#"><i class="icon-user"></i></a>
+            <ul id="menu3" class="dropdown-menu pull-right" role="menu" aria-labelledby="drop3">
+              <li class="user-detail" role="presentation">
+                <p class="text-left">
+                  <a href="">紫霞仙子</a>
+                  <span class="label label-success">LV2</span>
+                  <span class="label label-default">VIP0</span>
+                  <a href="">182</a>
+                  <a href="">909</a>
+                  <a href="">mail.qq.com</a>
+                  <a href="">验证</a>
+                </p>
+                <p>
+                  <form>
+                    <input type="text" placeholder="签名输入框，鼠标指向显示输入框修改内容后自动保存">
+                  </form>
+                </p>
+              </li>
+              <li role="presentation" class="divider"></li>
+              <li>
+                <ul class="opt-btns clearfix">
+                  <li class="round bg-color-blank">
+                    <i class="icon-user-solid" title="我的图片" alt="我的图片"></i>
+                    <span>我的图片</span>
+                  </li>
+                  <li class="round bg-color-green">
+                   <i class="icon-user-fav" title="我的收藏" alt="我的收藏"></i>
+                   <span>我的收藏</span>
+                  </li>
+                  <li class="round bg-color-orange">
+                   <i class="icon-user-account" title="我的账户" alt="我的账户"></i>
+                   <span>我的账户</span>
+                  </li>
+                  <li class="round bg-color-purple">
+                   <i class="icon-user-log" title="我的记录" alt="我的记录"></i>
+                   <span>我的记录</span>
+                  </li>
+                  <li class="round bg-color-cyan-blue">
+                   <i class="icon-user-home" title="我的房间" alt="我的房间"></i>
+                   <span>我的房间</span>
+                  </li>
+                  <li class="round bg-color-blue">
+                   <i class="icon-user-manager" title="经纪管理" alt="经纪管理"></i>
+                   <span>经纪管理</span>
+                  </li>
+                  <li class="round bg-color-khaki">
+                   <i class="icon-user-logout" title="退出登录" alt="退出登录"></i>
+                   <span>退出登录</span>
+                  </li>
+                </ul>
+              </li>
+              <li role="presentation" class="divider"></li>
+              <li class="invite">邀请链接www.aoqing.com/2233494940</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="container main">
+      <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="text" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" class="form-control" placeholder="Password" required>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+    </div>
+
+    <footer class="container navbar-fixed-bottom">
+      <div class="row">
+        <div class="col-xs-3 col-sm-3 col-lg-4 col-left">
+          <a class="icon-RTA" href="#"></a>
+          <a class="icon-RTA" href="#"></a>
+          <a class="icon-RTA" href="#"></a>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-lg-4 col-middle">
+          <div class="con">
+            <ul>
+              <li><a href="#">关于我们</a></li>
+              <li><a href="#">帮助</a></li>
+              <li><a href="#">广告</a></li>
+              <li><a href="#">服务条款</a></li>
+              <li><a href="#">备案要求遵守说明</a></li>
+              <li>©2011 Chat</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-lg-4 col-right">
+          <a class="icon-ICRA" href="#"></a>
+          <a class="icon-ICRA" href="#"></a>
+          <a class="icon-ICRA" href="#"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/jquery/1.10.2/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
