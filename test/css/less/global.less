@@ -194,7 +194,7 @@ header{
     }
   }//header-right.END
 }
-//media
+//media.BEGIN
 @media (min-width: 768px) {
   header{
     &.container{
@@ -218,18 +218,17 @@ header{
   }
 }
 @media (max-width: 600px) {
-  header .col-middle .con .input-group{
-    visibility: hidden;
+  header .col-middle .con{
+    .input-group{
+      visibility: hidden;
+    }
+    .dropdown .dropdown-menu .input-group{
+      visibility: visible;
+      margin-bottom: 10px;
+    }
   }
-  header .col-middle .con .dropdown .dropdown-menu .input-group{
-    visibility: visible;
-    margin-bottom: 10px;
-  }
-}
-
-
+}//media.END
 // hader.END
-
 
 
 // footer.BEGIN
@@ -240,7 +239,6 @@ footer{
   width: auto !important;
   &.container{ padding: 0; }
   &.navbar-fixed-bottom{ z-index: 10 }
-  // z-index: 10;
   .col-left, .col-middle, .col-right{ padding-top: 5px;}
   .col-left a, .col-right a{
     margin: 10px 0 10px 20px;
