@@ -25,9 +25,9 @@ header{
     padding: 0;
   }
   &.header-bg{
-    background-color: rgba(255,255,255, 0.6);  
+    background-color: rgba(255,255,255, 0.5);  
   }
-  .dropdown-custom-btn{
+  .dropdown-custom .dropdown-custom-btn{
     width: 70px;
     height: 70px;
     padding: 10px;
@@ -50,7 +50,21 @@ header{
   }
   //header-left.BEGIN
   .col-left{
-    
+    text-align: center;
+    .dropdown{
+      display: inline-block;
+      select{
+        float: left;
+        margin-right: -1px;
+        border-color: #A9A9A9;
+      }
+      select:first-child{
+        .border-left-radius(4px);
+      }
+      select:last-child{
+        .border-right-radius(4px); 
+      }
+    }
   }//header-left.END
   .col-middle{//header-middle.BEGIN
     padding: 0;
@@ -73,7 +87,10 @@ header{
         position: relative;
         top: 15px;
         visibility: visible;
-        .btn{ padding: 5px 6px; }
+        input{
+          height: 40px;
+        }
+        .btn{ padding: 8px 6px; }
         .btn i{ display: block; }
       }
       .dropdown{
@@ -91,23 +108,38 @@ header{
           margin: 0;
           left: -150px;
           min-width: 400px;
-          padding: 10px 0 50px;
+          padding: 10px 6px 50px;
           //
-          .item-type{
-            padding: 15px 0 25px;
+          .input-group{
+            margin: 0 80px;
+            visibility: hidden;
+            margin-bottom: -40px;
           }
-          
+          .item-type{
+            padding: 10px 0;
+          }
           .item-tag{
-            padding-left: 10px;
-            button{ margin-bottom: 5px;}
+            padding-left: 14px;
+            a{ 
+              margin-bottom: 10px; 
+              margin-right: 7px; 
+              clear: none; 
+              float: left; 
+              padding: 3px 5px; 
+              background-color: rgba(255, 255, 255, 0.6);
+              &:hover{
+                background-color: #FFF;
+              }
+            }
           }
         }
-        
       }
     }
   }//header-middle.END
   .col-right{//header-right.BEGIN
     position: relative;
+    text-align: center;
+    .con{display: inline-block;}
     .dropdown{
       float: right;
       .dropdown-btn{
@@ -145,9 +177,10 @@ header{
       }
     }
     .user-info{
-      position: absolute;
-      right: 85px;
-      top: 0;
+      // position: absolute;
+      // right: 85px;
+      // top: 0;
+      float: left;
       display: none;
       li{
         float: left;
@@ -174,11 +207,11 @@ header{
     .col-left .dropdown-menu{
       padding: 20px 5px;
       margin: 0;
-      // padding-left: 10%;
+      float: none;
+      li{display: inline-block;}
     }
     .col-right{
       padding: 0;
-      // padding-right: 10%;
       .user-info{
         display: block;
       }
@@ -188,6 +221,10 @@ header{
 @media (max-width: 600px) {
   header .col-middle .con .input-group{
     visibility: hidden;
+  }
+  header .col-middle .con .dropdown .dropdown-menu .input-group{
+    visibility: visible;
+    margin-bottom: 10px;
   }
 }
 
@@ -213,7 +250,7 @@ footer{
     .con{
       text-align: center;
     }
-    ul{ list-style: none; display: inline-block; *display:inline;*zoom:1}
+    ul{display: inline-block; *display:inline;*zoom:1}
     ul li{
       color: #FFF;
       display: inline-block;
