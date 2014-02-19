@@ -53,6 +53,8 @@ header{
     text-align: center;
     .dropdown{
       display: inline-block;
+      *display: inline;
+      *zoom: 1;
       select{
         float: left;
         margin-right: -1px;
@@ -139,7 +141,7 @@ header{
   .col-right{//header-right.BEGIN
     position: relative;
     text-align: center;
-    .con{display: inline-block;}
+    .con{display: inline-block; *display: inline; *zoom:1;}
     .dropdown{
       float: right;
       .dropdown-btn{
@@ -177,9 +179,6 @@ header{
       }
     }
     .user-info{
-      // position: absolute;
-      // right: 85px;
-      // top: 0;
       float: left;
       display: none;
       li{
