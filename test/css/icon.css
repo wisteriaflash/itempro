@@ -1,1 +1,135 @@
-.logo-sprite{background:url('../img/logo.png') no-repeat;display:inline-block;width:138px;height:53px}.logo-red{background:url('../img/logo.png') no-repeat;display:inline-block;width:138px;height:53px}.logo-blue{background:url('../img/logo.png') no-repeat;display:inline-block;width:138px;height:53px;height:51px;background-position:0 -55px}.icon-sprite{background:url('../img/icon.png') no-repeat;display:inline-block}.icon-area{background:url('../img/icon.png') no-repeat;display:inline-block;width:50px;height:50px}.icon-tag{background:url('../img/icon.png') no-repeat;display:inline-block;width:46px;height:46px;background-position:0 -54px}.icon-search{background:url('../img/icon.png') no-repeat;display:inline-block;width:22px;height:22px;background-position:-50px -55px}.icon-user{background:url('../img/icon.png') no-repeat;display:inline-block;width:50px;height:50px;background-position:0 -104px}.icon-user-solid{background:url('../img/icon.png') no-repeat;display:inline-block;width:47px;height:50px;background-position:-100px -104px}.icon-user-fav{background:url('../img/icon.png') no-repeat;display:inline-block;width:52px;height:52px;background-position:-75px -155px}.icon-user-account{background:url('../img/icon.png') no-repeat;display:inline-block;width:50px;height:52px;background-position:-126px -155px}.icon-user-log{background:url('../img/icon.png') no-repeat;display:inline-block;width:41px;height:52px;background-position:-176px -155px}.icon-user-home{background:url('../img/icon.png') no-repeat;display:inline-block;width:45px;height:52px;background-position:-217px -155px}.icon-user-manager{background:url('../img/icon.png') no-repeat;display:inline-block;width:50px;height:52px;background-position:-261px -155px}.icon-user-logout{background:url('../img/icon.png') no-repeat;display:inline-block;width:45px;height:52px;background-position:-311px -155px}.icon-coin{background:url('../img/icon.png') no-repeat;display:inline-block;width:35px;height:51px}.icon-coin-yellow{background:url('../img/icon.png') no-repeat;display:inline-block;width:35px;height:51px;background-position:0 -155px}.icon-coin-green{background:url('../img/icon.png') no-repeat;display:inline-block;width:35px;height:51px;background-position:-35px -155px}.icon-RTA{background:url('../img/icon.png') no-repeat;display:inline-block;width:64px;height:24px;background-position:-55px 0}.icon-ICRA{background:url('../img/icon.png') no-repeat;display:inline-block;width:66px;height:24px;background-position:-55px -25px}
+/* sprite style */
+.logo-sprite {
+  background: url('../img/logo.png') no-repeat;
+  display: inline-block;
+  width: 138px;
+  height: 53px;
+}
+.logo-red {
+  background: url('../img/logo.png') no-repeat;
+  display: inline-block;
+  width: 138px;
+  height: 53px;
+}
+.logo-blue {
+  background: url('../img/logo.png') no-repeat;
+  display: inline-block;
+  width: 138px;
+  height: 53px;
+  height: 51px;
+  background-position: 0 -55px;
+}
+.icon-sprite {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+}
+.icon-area {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-tag {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  background-position: 0 -54px;
+}
+.icon-search {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-position: -50px -55px;
+}
+.icon-user {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-position: 0 -104px;
+}
+.icon-user-solid {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 47px;
+  height: 50px;
+  background-position: -100px -104px;
+}
+.icon-user-fav {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 52px;
+  height: 52px;
+  background-position: -75px -155px;
+}
+.icon-user-account {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 52px;
+  background-position: -126px -155px;
+}
+.icon-user-log {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 41px;
+  height: 52px;
+  background-position: -176px -155px;
+}
+.icon-user-home {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 45px;
+  height: 52px;
+  background-position: -217px -155px;
+}
+.icon-user-manager {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 50px;
+  height: 52px;
+  background-position: -261px -155px;
+}
+.icon-user-logout {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 45px;
+  height: 52px;
+  background-position: -311px -155px;
+}
+.icon-coin {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 51px;
+}
+.icon-coin-yellow {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 51px;
+  background-position: 0 -155px;
+}
+.icon-coin-green {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 35px;
+  height: 51px;
+  background-position: -35px -155px;
+}
+.icon-RTA {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 64px;
+  height: 24px;
+  background-position: -55px 0;
+}
+.icon-ICRA {
+  background: url('../img/icon.png') no-repeat;
+  display: inline-block;
+  width: 66px;
+  height: 24px;
+  background-position: -55px -25px;
+}

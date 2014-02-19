@@ -25,7 +25,7 @@ header{
     padding: 0;
   }
   &.header-bg{
-    background-color: rgba(255,255,255, 0.5);  
+    background-color: rgba(200,200,200, 0.5);
   }
   .dropdown-custom .dropdown-custom-btn{
     width: 70px;
@@ -201,7 +201,8 @@ header{
       padding: 0 15px;
     }
     .col-left{
-      padding-left: 10px;
+      // padding-left: 10px;
+      padding: 0;
     }
     .col-left .dropdown-menu{
       padding: 20px 5px;
@@ -237,11 +238,21 @@ footer{
   min-height: 30px;
   _height: 30px;
   width: auto !important;
-  &.container{ padding: 0; }
+  // &.container{ padding: 0; }
   &.navbar-fixed-bottom{ z-index: 10 }
-  .col-left, .col-middle, .col-right{ padding-top: 5px;}
+  .col-left, .col-middle, .col-right{ 
+    padding-top: 5px; 
+    text-align: center;
+    padding: 0;
+  }
+  .col-left .con, .col-right .con{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+  }
   .col-left a, .col-right a{
     margin: 10px 0 10px 20px;
+    float: left;
   }
   .col-middle{
     .con{
@@ -257,7 +268,8 @@ footer{
     }
   }
   .col-right{
-    text-align: right;
+    padding-right: 0;
+    padding-top: 0;
     a{
       margin-left: 0;
       margin-right: 10px;
