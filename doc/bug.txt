@@ -1,17 +1,4 @@
-1.头部左侧下拉菜单：这里的地域和语言请改为自适应宽度
-fix：使用js计算个数，并添加class及更改尺寸。
-
-底部，这里的间距是不是设置的太大了，你看还空出这么多位置就开始换行了
-这里设置靠拢到20px的时候无法放下即可换行
-
-
-固定的整个页头，当鼠标滚动正文内容时，会出现抖动问题，ie11
-
-
-标签中的文字四周请设置10PX间距，同时当文字一行无法排列时需要换行，那整行的高度应该自动匹配，这样整体看起来不会太乱。另外这里可以同时多选，选择后文字字体加粗，底色高亮显示，再次点击取消选择时恢复默认效果即可。为了长期记住用户的选择所以可能需要增加已选择项的 class="current" 标识。
-
-
-footer底部图标反灰
+**footer底部图标反灰
 方法3：同时支持IE和Chrome
 
 <style>
@@ -19,3 +6,17 @@ footer底部图标反灰
 html {overflow-y:scroll;filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter: grayscale(100%);}
 
 </style>
+需要用添加js支持:http://www.majas-lapu-izstrade.lv/cross-browser-grayscale-ie11/
+
+
+直接使用iPad和iPhone测试的，Mac OS X系统下的Safari还未测试，其中针对不同的分辨率有使用：
+iPhone 3GS = 480x320
+iPhone 4 = 960x640
+iPhone 5S = 1136x640
+
+iPad2 = 1024x768
+New iPad =2048x1536
+iPad Mini = 1024x768
+iPad Mini 2 = 2048x1536
+
+
